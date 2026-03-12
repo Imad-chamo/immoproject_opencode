@@ -64,10 +64,10 @@ export default function RegisterPage() {
             <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center">
               <Shield className="w-7 h-7 text-white" />
             </div>
-            <span className="text-2xl font-bold text-primary">Immo Verify<span className="text-accent">Maroc</span></span>
+            <span className="text-2xl font-bold text-primary">DariCheck</span>
           </Link>
           <h1 className="text-2xl font-bold text-gray-900">Créer un compte</h1>
-          <p className="text-gray-600 mt-2">Rejoignez Immo Verify Maroc</p>
+          <p className="text-gray-600 mt-2">Rejoignez DariCheck</p>
         </div>
 
         <div className="card">

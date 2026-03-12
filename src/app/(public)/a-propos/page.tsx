@@ -11,7 +11,7 @@ export default function AProposPage() {
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
                 <Shield className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-bold text-primary">Immo Verify<span className="text-accent">Maroc</span></span>
+              <span className="text-xl font-bold text-primary">DariCheck</span>
             </Link>
             <nav className="flex items-center space-x-6">
               <Link href="/tarifs" className="text-gray-600 hover:text-primary font-medium">Tarifs</Link>
@@ -30,7 +30,7 @@ export default function AProposPage() {
               Votre partenaire de confiance pour l inspection immobilière au Maroc
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              Immo Verify Maroc est la première plateforme indépendante d'inspection immobilière au Maroc. 
+              DariCheck est la première plateforme indépendante d'inspection immobilière au Maroc. 
               Nous aidons les acheteurs à prendre des décisions éclairées grâce à des rapports détaillés et objectifs.
             </p>
             <div className="grid grid-cols-3 gap-6">

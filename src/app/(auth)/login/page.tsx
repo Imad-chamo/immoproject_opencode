@@ -44,7 +44,7 @@ export default function LoginPage() {
             <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center">
               <Shield className="w-7 h-7 text-white" />
             </div>
-            <span className="text-2xl font-bold text-primary">Immo Verify<span className="text-accent">Maroc</span></span>
+            <span className="text-2xl font-bold text-primary">DariCheck</span>
           </Link>
           <h1 className="text-2xl font-bold text-gray-900">Connexion</h1>
           <p className="text-gray-600 mt-2">Connectez-vous à votre compte</p>

@@ -1,12 +1,22 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Playfair_Display, DM_Sans } from "next/font/google";
 import "./globals.css";
 import { Providers } from "@/components/providers";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const playfair = Playfair_Display({ 
+  subsets: ["latin"], 
+  variable: "--font-playfair",
+  display: "swap",
+});
+
+const dmSans = DM_Sans({ 
+  subsets: ["latin"], 
+  variable: "--font-dm-sans",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
-  title: "Immo Verify Maroc - Inspection Immobilière au Maroc",
+  title: "DariCheck - Inspection Immobilière au Maroc",
   description: "Achetez au Maroc les yeux ouverts. Inspection professionnelle de propriétés immobilières par des ingénieurs certifiés.",
   keywords: "inspection immobilière, Morocco, real estate, property inspection, achat maison",
 };
@@ -18,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr" dir="ltr">
-      <body className={`${inter.variable} font-sans antialiased`}>
+      <body className={`${playfair.variable} ${dmSans.variable} font-sans antialiased`}>
         <Providers>
           {children}
         </Providers>

@@ -36,7 +36,7 @@ export default async function AdminDashboardLayout({
               <div className="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center">
                 <Shield className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-bold">Immo Verify<span className="text-accent">Maroc</span></span>
+              <span className="text-xl font-bold">DariCheck</span>
               <span className="ml-2 px-2 py-0.5 bg-accent text-xs rounded">ADMIN</span>
             </Link>
             <nav className="hidden md:flex items-center space-x-6">
